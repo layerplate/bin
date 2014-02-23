@@ -1,5 +1,28 @@
-//After what you said, I looked in the code and can see a few (a lot of) things that I DRY up.
-//I could seemingly make the click_node a sigular function that just processed the variables.
+//This is an old actioscript project that I need to DRY.
+//I could seemingly make the click_node a sigular function that just processesthe variables.
+
+/* Example of function to implement
+
+function addComVal(valChanged, valNum){
+
+	if(valChanged.value!=""){
+		 hidCurCourse = 'hidTF_' + Number(valNum);
+		 hidCurCourse = document.fMain[hidCurCourse];         
+		 hidCurCourse.value = "Y";                           
+	
+	}else{
+		 hidCurCourse = 'hidTF_' + Number(valNum);
+		 hidCurCourse = document.fMain[hidCurCourse];             
+		 hidCurCourse.value = "N";
+	}
+
+}
+
+I’m sending the current field (this) and whatever the current row is:
+addComVal(this,5)
+*/
+ 
+
 
 
 //NODE 01
