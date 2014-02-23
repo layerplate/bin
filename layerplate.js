@@ -1,4 +1,4 @@
-//After what you said, I looked in the code and can see a few things that I DRY up.
+//After what you said, I looked in the code and can see a few (a lot of) things that I DRY up.
 //I could seemingly make the click_node a sigular function that just processed the variables.
 
 
